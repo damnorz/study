@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5A1AEC93-CD9C-4286-9818-78038607FD7C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>nylgacm</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="hiho1049postorder.cpp" />
+    <ClCompile Include="kmp.cpp" />
+    <ClCompile Include="ny10.cpp" />
+    <ClCompile Include="ny101.cpp" />
+    <ClCompile Include="ny102.cpp" />
+    <ClCompile Include="ny103.cpp" />
+    <ClCompile Include="ny104.cpp" />
+    <ClCompile Include="ny107.cpp" />
+    <ClCompile Include="ny109.cpp" />
+    <ClCompile Include="ny110.cpp" />
+    <ClCompile Include="ny111.cpp" />
+    <ClCompile Include="ny112.cpp" />
+    <ClCompile Include="ny113.cpp" />
+    <ClCompile Include="ny122.cpp" />
+    <ClCompile Include="ny124.cpp" />
+    <ClCompile Include="ny125.cpp" />
+    <ClCompile Include="ny127.cpp" />
+    <ClCompile Include="ny129.cpp" />
+    <ClCompile Include="ny139.cpp" />
+    <ClCompile Include="ny14.cpp" />
+    <ClCompile Include="ny140.cpp" />
+    <ClCompile Include="ny143.cpp" />
+    <ClCompile Include="ny144.cpp" />
+    <ClCompile Include="ny145.cpp" />
+    <ClCompile Include="ny150.cpp" />
+    <ClCompile Include="ny152.cpp" />
+    <ClCompile Include="ny160.cpp" />
+    <ClCompile Include="ny164.cpp" />
+    <ClCompile Include="ny168.cpp" />
+    <ClCompile Include="ny170.cpp" />
+    <ClCompile Include="ny171.cpp" />
+    <ClCompile Include="ny172.cpp" />
+    <ClCompile Include="ny180.cpp" />
+    <ClCompile Include="ny181.cpp" />
+    <ClCompile Include="ny187.cpp" />
+    <ClCompile Include="ny189.cpp" />
+    <ClCompile Include="ny198.cpp" />
+    <ClCompile Include="ny199.cpp" />
+    <ClCompile Include="ny20.cpp" />
+    <ClCompile Include="ny24.cpp" />
+    <ClCompile Include="ny37.cpp" />
+    <ClCompile Include="ny42.cpp" />
+    <ClCompile Include="ny54.cpp" />
+    <ClCompile Include="ny61.cpp" />
+    <ClCompile Include="ny70.cpp" />
+    <ClCompile Include="ny84.cpp" />
+    <ClCompile Include="ny106.cpp" />
+    <ClCompile Include="ny108.cpp" />
+    <ClCompile Include="ny116.cpp" />
+    <ClCompile Include="ny16.cpp" />
+    <ClCompile Include="ny116%282%29.cpp" />
+    <ClCompile Include="ny17(2).cpp" />
+    <ClCompile Include="ny18.cpp" />
+    <ClCompile Include="ny19.cpp" />
+    <ClCompile Include="ny21.cpp" />
+    <ClCompile Include="ny27.cpp" />
+    <ClCompile Include="ny28.cpp" />
+    <ClCompile Include="ny33.cpp" />
+    <ClCompile Include="ny36.cpp" />
+    <ClCompile Include="ny38.cpp" />
+    <ClCompile Include="ny45.cpp" />
+    <ClCompile Include="ny49.cpp" />
+    <ClCompile Include="ny5.cpp" />
+    <ClCompile Include="ny52.cpp" />
+    <ClCompile Include="ny57.cpp" />
+    <ClCompile Include="ny58.cpp" />
+    <ClCompile Include="ny655.cpp" />
+    <ClCompile Include="ny664.cpp" />
+    <ClCompile Include="ny7.cpp" />
+    <ClCompile Include="ny73.cpp" />
+    <ClCompile Include="ny823.cpp" />
+    <ClCompile Include="ny85.cpp" />
+    <ClCompile Include="ny86(2).cpp" />
+    <ClCompile Include="ny86.cpp" />
+    <ClCompile Include="ny17.cpp" />
+    <ClCompile Include="ny88.cpp" />
+    <ClCompile Include="ny90.cpp" />
+    <ClCompile Include="ny91.cpp" />
+    <ClCompile Include="ny93.cpp" />
+    <ClCompile Include="ny94.cpp" />
+    <ClCompile Include="ny95.cpp" />
+    <ClCompile Include="quickunion.cpp" />
+    <ClCompile Include="sjtu1.cpp" />
+    <ClCompile Include="sortreview.cpp" />
+    <ClCompile Include="testC.cpp" />
+    <ClCompile Include="trie.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
