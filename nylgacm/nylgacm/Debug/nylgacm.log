@@ -1,20 +1,111 @@
-﻿生成启动时间为 2014/9/24 9:45:23。
-     1>项目“H:\study\nylg\nylgacm\nylgacm\nylgacm.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2014/9/24 16:03:35。
+     1>项目“C:\Users\zyqorz\Desktop\study\nylgacm\nylgacm\nylgacm.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\nylgacm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hiho1049postorder.cpp
+         hiho1049postorder.cpp
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zyqorz\Desktop\study\nylgacm\Debug\nylgacm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\nylgacm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zyqorz\Desktop\study\nylgacm\Debug\nylgacm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zyqorz\Desktop\study\nylgacm\Debug\nylgacm.lib" /MACHINE:X86 Debug\nylgacm.exe.embed.manifest.res
+         Debug\hiho1049postorder.obj
+         Debug\kmp.obj
+         Debug\ny10.obj
+         Debug\ny101.obj
+         Debug\ny102.obj
+         Debug\ny103.obj
+         Debug\ny104.obj
+         Debug\ny107.obj
+         Debug\ny109.obj
+         Debug\ny110.obj
+         Debug\ny111.obj
+         Debug\ny112.obj
+         Debug\ny113.obj
+         Debug\ny122.obj
+         Debug\ny124.obj
+         Debug\ny125.obj
+         Debug\ny127.obj
+         Debug\ny129.obj
+         Debug\ny139.obj
+         Debug\ny14.obj
+         Debug\ny140.obj
+         Debug\ny143.obj
+         Debug\ny144.obj
+         Debug\ny145.obj
+         Debug\ny150.obj
+         Debug\ny152.obj
+         Debug\ny160.obj
+         Debug\ny164.obj
+         Debug\ny168.obj
+         Debug\ny170.obj
+         Debug\ny171.obj
+         Debug\ny172.obj
+         Debug\ny180.obj
+         Debug\ny181.obj
+         Debug\ny187.obj
+         Debug\ny189.obj
+         Debug\ny198.obj
+         Debug\ny199.obj
+         Debug\ny20.obj
+         Debug\ny24.obj
+         Debug\ny37.obj
+         Debug\ny42.obj
+         Debug\ny54.obj
+         Debug\ny61.obj
+         Debug\ny70.obj
+         Debug\ny84.obj
+         Debug\ny106.obj
+         Debug\ny108.obj
+         Debug\ny116.obj
+         Debug\ny16.obj
+         "Debug\ny116(2).obj"
+         "Debug\ny17(2).obj"
+         Debug\ny18.obj
+         Debug\ny19.obj
+         Debug\ny21.obj
+         Debug\ny27.obj
+         Debug\ny28.obj
+         Debug\ny33.obj
+         Debug\ny36.obj
+         Debug\ny38.obj
+         Debug\ny45.obj
+         Debug\ny49.obj
+         Debug\ny5.obj
+         Debug\ny52.obj
+         Debug\ny57.obj
+         Debug\ny58.obj
+         Debug\ny655.obj
+         Debug\ny664.obj
+         Debug\ny7.obj
+         Debug\ny73.obj
+         Debug\ny823.obj
+         Debug\ny85.obj
+         "Debug\ny86(2).obj"
+         Debug\ny86.obj
+         Debug\ny17.obj
+         Debug\ny88.obj
+         Debug\ny90.obj
+         Debug\ny91.obj
+         Debug\ny93.obj
+         Debug\ny94.obj
+         Debug\ny95.obj
+         Debug\quickunion.obj
+         Debug\sjtu1.obj
+         Debug\sortreview.obj
+         Debug\testC.obj
+         Debug\trie.obj
        Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\nylgacm.exe.embed.manifest" /manifest Debug\nylgacm.exe.intermediate.manifest
          所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         nylgacm.vcxproj -> C:\Users\zyqorz\Desktop\study\nylgacm\Debug\nylgacm.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\nylgacm.unsuccessfulbuild”。
          正在对“Debug\nylgacm.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“H:\study\nylg\nylgacm\nylgacm\nylgacm.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“C:\Users\zyqorz\Desktop\study\nylgacm\nylgacm\nylgacm.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.15
+已用时间 00:00:05.58
